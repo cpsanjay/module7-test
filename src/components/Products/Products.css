@@ -1,0 +1,94 @@
+section {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  overflow-x: auto;
+}
+section h1 {
+  font-weight: 700;
+  font-size: 2.35rem;
+  line-height: 32px;
+
+  letter-spacing: 0.1px;
+
+  color: #000000;
+}
+
+.products-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.single-product {
+  width: 366px;
+  left: 69px;
+  top: 820px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.product-image {
+  width: 350px;
+  height: 350px;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+
+  letter-spacing: 0.1px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.old-price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  letter-spacing: 0.1px;
+  text-decoration-line: line-through;
+
+  color: #444444;
+  margin: 0 1rem;
+}
+
+.new-price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  letter-spacing: 0.1px;
+
+  color: #000000;
+}
+
+.add-btn {
+  background: #23a6f0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+
+  letter-spacing: 0.1px;
+
+  color: #ffffff;
+}

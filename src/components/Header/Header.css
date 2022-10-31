@@ -1,0 +1,129 @@
+header {
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 1292px;
+  height: 622px;
+  left: calc(50% - 1292px / 2 - 15px);
+  top: 92px;
+  background: linear-gradient(90deg, #96e9fb 0%, #abecd6 100%);
+  border-radius: 20px;
+}
+
+.header-container-img {
+  position: relative;
+}
+
+.header-container_cta {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 7rem;
+}
+
+.header-container_img img {
+  position: absolute;
+  bottom: 0;
+  right: -90px;
+  z-index: 1;
+}
+
+.header-container_img {
+  position: relative;
+}
+
+.circle-1 {
+  background-color: white;
+  border-radius: 999px;
+  position: absolute;
+  top: -622px;
+  left: 55%;
+  width: 100px;
+  height: 100px;
+}
+
+.circle-2 {
+  background-color: white;
+  border-radius: 999px;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  top: -630px;
+  right: -10px;
+}
+
+.circle-3 {
+  background-color: #977df4;
+  border-radius: 999px;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  top: -500px;
+  right: -50px;
+  z-index: 2;
+}
+
+.circle-4 {
+  background-color: white;
+  border-radius: 999px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: -370px;
+  right: -60px;
+  z-index: 2;
+}
+
+.header-container_h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.1px;
+
+  color: #2a7cc7;
+}
+
+.header-container_h1 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+
+  letter-spacing: 0.2px;
+
+  color: #252b42;
+  margin: 1.5rem 0;
+}
+
+.header-container_desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 0.2px;
+
+  color: #737373;
+  margin-bottom: 2rem;
+}
+
+.header-container_btn {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+
+  color: #ffffff;
+  padding: 15px 0;
+  background-color: #23a6f0;
+  border-radius: 5px;
+  width: 250px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
