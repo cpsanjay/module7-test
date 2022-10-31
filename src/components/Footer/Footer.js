@@ -3,6 +3,7 @@ import "./Footer.css";
 import Facebook from "../../images/facebook.svg";
 import Instagram from "../../images/instagram.svg";
 import Twitter from "../../images/twitter.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -40,16 +41,16 @@ const Footer = () => {
           <h4 className="footer-form_head">Company Info</h4>
           <ul>
             <li>
-              <a href="">About Us</a>{" "}
+              <Link>About Us</Link>{" "}
             </li>
             <li>
-              <a href="">Carrier</a>
+              <Link>Carrier</Link>
             </li>
             <li>
-              <a href="">We are hiring</a>
+              <Link>We are hiring</Link>
             </li>
             <li>
-              <a href="">Blog</a>
+              <Link>Blog</Link>
             </li>
           </ul>
         </div>
@@ -57,16 +58,16 @@ const Footer = () => {
           <h4 className="footer-form_head">Legal</h4>
           <ul>
             <li>
-              <a href="">About Us</a>{" "}
+              <Link>About Us</Link>{" "}
             </li>
             <li>
-              <a href="">Carrier</a>
+              <Link>Carrier</Link>
             </li>
             <li>
-              <a href="">We are hiring</a>
+              <Link>We are hiring</Link>
             </li>
             <li>
-              <a href="">Blog</a>
+              <Link>Blog</Link>
             </li>
           </ul>
         </div>
@@ -74,16 +75,16 @@ const Footer = () => {
           <h4 className="footer-form_head">Features</h4>
           <ul>
             <li>
-              <a href="">Business Marketing</a>{" "}
+              <Link>Business Marketing</Link>{" "}
             </li>
             <li>
-              <a href="">User Analytic</a>
+              <Link>User Analytic</Link>
             </li>
             <li>
-              <a href="">Live Chat</a>
+              <Link>Live Chat</Link>
             </li>
             <li>
-              <a href="">Unlimited Support</a>
+              <Link>Unlimited Support</Link>
             </li>
           </ul>
         </div>
@@ -91,16 +92,16 @@ const Footer = () => {
           <h4 className="footer-form_head">Resources</h4>
           <ul>
             <li>
-              <a href="">IOS & Android</a>{" "}
+              <Link>IOS & Android</Link>
             </li>
             <li>
-              <a href="">Watch a Demo</a>
+              <Link>Watch a Demo</Link>
             </li>
             <li>
-              <a href="">Customers</a>
+              <Link>Customers</Link>
             </li>
             <li>
-              <a href="">API</a>
+              <Link>API</Link>
             </li>
           </ul>
         </div>
