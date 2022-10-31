@@ -35,8 +35,8 @@ const Products = () => {
               />
               <p className="product-name">
                 {product.productName.length > 40
-                  ? product.productName.slice(0, 40)
-                  : product.productName + " ..."}
+                  ? product.productName.slice(0, 40) + " ..."
+                  : product.productName}
               </p>
               <div className="price">
                 <div className="rating">
