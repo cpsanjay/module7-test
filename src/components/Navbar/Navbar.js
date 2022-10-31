@@ -45,9 +45,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a href="">
+            <Link>
               <img src={Search} alt="" className="nav-icon" />
-            </a>
+            </Link>
           </li>
           <li>
             <Link to="/cart">
@@ -56,10 +56,10 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a href="">
+            <Link>
               <img src={Wishlist} alt="" className="nav-icon" />
               <div>1</div>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
