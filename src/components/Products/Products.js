@@ -33,7 +33,11 @@ const Products = () => {
                 src={product.productImage}
                 alt=""
               />
-              <p className="product-name">{product.productName}</p>
+              <p className="product-name">
+                {product.productName.length > 40
+                  ? product.productName.slice(0, 40)
+                  : product.productName + " ..."}
+              </p>
               <div className="price">
                 <div className="rating">
                   <img src={Star} alt="" />
